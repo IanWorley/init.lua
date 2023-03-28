@@ -47,6 +47,14 @@ use {
     {'rafamadriz/friendly-snippets'}, -- Optional
   }
 }
+
+ use ('mfussenegger/nvim-dap')
+ use {'rcarriga/nvim-dap-ui', requires = {'mfussenegger/nvim-dap'}}
+ use{'theHamsta/nvim-dap-virtual-text'}
+ use{'nvim-telescope/telescope-dap.nvim'}
+ use('jay-babu/mason-nvim-dap.nvim')
+use ('mfussenegger/nvim-dap-python')
+
   use {'github/copilot.vim', branch = 'release' }
   use('wakatime/vim-wakatime')
 
